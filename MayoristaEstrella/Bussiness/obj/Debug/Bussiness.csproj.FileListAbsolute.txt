@@ -1,0 +1,11 @@
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.AssemblyReference.cache
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.dll
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.pdb
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\DAL.dll
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\Entidades.dll
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\DAL.pdb
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\bin\Debug\Entidades.pdb
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.CopyComplete
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.dll
+C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.pdb
