@@ -9,5 +9,6 @@ namespace Entidades
      public class Class1
     {
         public int prueba { get; set; }
+		public int prueba2 { get; set; }
     }
 }
