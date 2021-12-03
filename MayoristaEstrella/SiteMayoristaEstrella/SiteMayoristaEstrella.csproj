@@ -116,6 +116,7 @@
     <Content Include="Bienvenidos.aspx" />
     <Content Include="Bienvenidos.html" />
     <Content Include="Cliente.aspx" />
+    <Content Include="Clientes.aspx" />
     <Content Include="Compras.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Contacto.aspx" />
@@ -125,6 +126,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EditarMarca.aspx" />
+    <Content Include="EditarMedida.aspx" />
+    <Content Include="EditarProducto.aspx" />
     <Content Include="EditarRubro.aspx" />
     <Content Include="EditarRubroEF.aspx" />
     <Content Include="EjemploEventoLoad.aspx" />
@@ -140,11 +144,23 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+<<<<<<< HEAD
     <Content Include="ListadoRubrosEF.aspx" />
+=======
+    <Content Include="Marcas.aspx" />
+    <Content Include="Medidas.aspx" />
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
     <Content Include="MiMasterPage.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="NuevaMarca.aspx" />
+    <Content Include="NuevaMedida.aspx" />
+    <Content Include="NuevoProducto.aspx" />
     <Content Include="NuevoRubro.aspx" />
+<<<<<<< HEAD
     <Content Include="NuevoRubroEF.aspx" />
+=======
+    <Content Include="Productos.aspx" />
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
     <Content Include="Rubros.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -205,6 +221,13 @@
     <Compile Include="Cliente.aspx.designer.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Compras.aspx.cs">
       <DependentUpon>Compras.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -232,6 +255,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarMarca.aspx.cs">
+      <DependentUpon>EditarMarca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarMarca.aspx.designer.cs">
+      <DependentUpon>EditarMarca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarMedida.aspx.cs">
+      <DependentUpon>EditarMedida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarMedida.aspx.designer.cs">
+      <DependentUpon>EditarMedida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProducto.aspx.cs">
+      <DependentUpon>EditarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarProducto.aspx.designer.cs">
+      <DependentUpon>EditarProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditarRubro.aspx.cs">
       <DependentUpon>EditarRubro.aspx</DependentUpon>
@@ -264,12 +308,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ListadoRubrosEF.aspx.cs">
       <DependentUpon>ListadoRubrosEF.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ListadoRubrosEF.aspx.designer.cs">
       <DependentUpon>ListadoRubrosEF.aspx</DependentUpon>
+=======
+    <Compile Include="Marcas.aspx.cs">
+      <DependentUpon>Marcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marcas.aspx.designer.cs">
+      <DependentUpon>Marcas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Medidas.aspx.cs">
+      <DependentUpon>Medidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medidas.aspx.designer.cs">
+      <DependentUpon>Medidas.aspx</DependentUpon>
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
     </Compile>
     <Compile Include="MiMasterPage.Master.cs">
       <DependentUpon>MiMasterPage.Master</DependentUpon>
@@ -278,6 +338,27 @@
     <Compile Include="MiMasterPage.Master.designer.cs">
       <DependentUpon>MiMasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="NuevaMarca.aspx.cs">
+      <DependentUpon>NuevaMarca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevaMarca.aspx.designer.cs">
+      <DependentUpon>NuevaMarca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaMedida.aspx.cs">
+      <DependentUpon>NuevaMedida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevaMedida.aspx.designer.cs">
+      <DependentUpon>NuevaMedida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoProducto.aspx.cs">
+      <DependentUpon>NuevoProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevoProducto.aspx.designer.cs">
+      <DependentUpon>NuevoProducto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="NuevoRubro.aspx.cs">
       <DependentUpon>NuevoRubro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -285,12 +366,21 @@
     <Compile Include="NuevoRubro.aspx.designer.cs">
       <DependentUpon>NuevoRubro.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="NuevoRubroEF.aspx.cs">
       <DependentUpon>NuevoRubroEF.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="NuevoRubroEF.aspx.designer.cs">
       <DependentUpon>NuevoRubroEF.aspx</DependentUpon>
+=======
+    <Compile Include="Productos.aspx.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Productos.aspx.designer.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rubros.aspx.cs">

@@ -56,6 +56,10 @@
                         <li><a runat="server" href="~/Contacto.aspx">Contacto</a></li>
                         <li><a runat="server" href="~/Rubros">Rubros</a></li>
                         <li><a runat="server" href="~/Cliente">Validaciones Cliente</a></li>
+                        <li><a runat="server" href="~/Clientes">Clientes</a></li>
+                        <li><a runat="server" href="~/Productos">Productos</a></li>
+                        <li><a runat="server" href="~/Medidas">Medidas</a></li>
+                        <li><a runat="server" href="~/Marcas">Marcas</a></li>
                     </ul>
                 </div>
             </div>

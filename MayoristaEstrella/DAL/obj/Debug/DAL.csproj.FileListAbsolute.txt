@@ -7,6 +7,7 @@ C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCo
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\DAL\obj\Debug\DAL.dll
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\DAL.dll.config
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\DAL.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\DAL.pdb
@@ -24,3 +25,14 @@ C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.p
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\ObjetosDeNegocio.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\ObjetosDeNegocio.pdb
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\ObjetosDeNegocio.dll.config
+=======
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\DAL.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\DAL.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\bin\Debug\Entidades.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\DAL\obj\Debug\DAL.csproj.CopyComplete
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6

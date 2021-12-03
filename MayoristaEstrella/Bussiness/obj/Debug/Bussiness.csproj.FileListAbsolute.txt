@@ -9,6 +9,7 @@ C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCo
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.CopyComplete
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.dll
 C:\Users\_Hugo\OneDrive\Escritorio\net octubre ma vi\Clase 7\MayoristaEstrellaCorregida\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.pdb
+<<<<<<< HEAD
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.dll.config
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.pdb
@@ -29,3 +30,16 @@ C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\ObjetosDeNegocio.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\ObjetosDeNegocio.pdb
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\ObjetosDeNegocio.dll.config
+=======
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csprojAssemblyReference.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.CoreCompileInputs.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Bussiness.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\DAL.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\DAL.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\bin\Debug\Entidades.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Bussiness\obj\Debug\Bussiness.csproj.CopyComplete
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6

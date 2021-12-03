@@ -52,9 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteBussiness.cs" />
+    <Compile Include="MarcaBussiness.cs" />
+    <Compile Include="ProductoBussiness.cs" />
     <Compile Include="RubroBussiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="RubroBussiness_EF.cs" />
+=======
+    <Compile Include="UnidadMedidaBussiness.cs" />
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

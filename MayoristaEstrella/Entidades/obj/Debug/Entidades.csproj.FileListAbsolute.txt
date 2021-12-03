@@ -28,9 +28,18 @@ E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.dll
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.pdb
+<<<<<<< HEAD
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.pdb
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.dll
 C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.pdb
+=======
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.pdb
+>>>>>>> 6e7a9cac5935aac750e87c7c2bdeff8ce15dbde6
