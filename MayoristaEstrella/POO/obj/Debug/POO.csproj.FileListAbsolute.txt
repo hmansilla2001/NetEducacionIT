@@ -48,3 +48,13 @@ E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\POO\obj\Debug
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\POO\obj\Debug\POO.csproj.CopyComplete
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\POO\obj\Debug\POO.exe
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\POO\obj\Debug\POO.pdb
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\bin\Debug\POO.exe.config
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\bin\Debug\POO.exe
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\bin\Debug\POO.pdb
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\bin\Debug\Entidades.dll
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\bin\Debug\Entidades.pdb
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\obj\Debug\POO.csproj.CopyComplete
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\obj\Debug\POO.exe
+C:\Users\_Hugo\source\repos\NetEducacionIT\MayoristaEstrella\POO\obj\Debug\POO.pdb

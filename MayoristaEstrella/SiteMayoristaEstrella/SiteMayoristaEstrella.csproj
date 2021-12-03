@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -44,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -119,6 +126,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="EditarRubro.aspx" />
+    <Content Include="EditarRubroEF.aspx" />
     <Content Include="EjemploEventoLoad.aspx" />
     <Content Include="EliminarRubro.aspx" />
     <Content Include="favicon.ico" />
@@ -132,9 +140,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="ListadoRubrosEF.aspx" />
     <Content Include="MiMasterPage.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="NuevoRubro.aspx" />
+    <Content Include="NuevoRubroEF.aspx" />
     <Content Include="Rubros.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -230,6 +240,13 @@
     <Compile Include="EditarRubro.aspx.designer.cs">
       <DependentUpon>EditarRubro.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarRubroEF.aspx.cs">
+      <DependentUpon>EditarRubroEF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarRubroEF.aspx.designer.cs">
+      <DependentUpon>EditarRubroEF.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EjemploEventoLoad.aspx.cs">
       <DependentUpon>EjemploEventoLoad.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -247,6 +264,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ListadoRubrosEF.aspx.cs">
+      <DependentUpon>ListadoRubrosEF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoRubrosEF.aspx.designer.cs">
+      <DependentUpon>ListadoRubrosEF.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MiMasterPage.Master.cs">
       <DependentUpon>MiMasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -260,6 +284,13 @@
     </Compile>
     <Compile Include="NuevoRubro.aspx.designer.cs">
       <DependentUpon>NuevoRubro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoRubroEF.aspx.cs">
+      <DependentUpon>NuevoRubroEF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuevoRubroEF.aspx.designer.cs">
+      <DependentUpon>NuevoRubroEF.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rubros.aspx.cs">
@@ -321,6 +352,10 @@
       <Project>{909f7e62-4b5d-43ae-9f7f-fc2d39388b41}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ObjetosDeNegocio\ObjetosDeNegocio.csproj">
+      <Project>{9fca13a3-8755-4f23-ba4f-2d88be2dbfe0}</Project>
+      <Name>ObjetosDeNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -352,7 +387,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
