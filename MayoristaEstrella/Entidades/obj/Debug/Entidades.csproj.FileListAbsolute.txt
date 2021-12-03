@@ -28,3 +28,9 @@ E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.dll
 E:\EducacionIT\Clase 6\MayoristaEstrella Clase 5\MayoristaEstrella\Entidades\obj\Debug\Entidades.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\bin\Debug\Entidades.pdb
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.dll
+E:\clon\NetEducacionIT\MayoristaEstrella\Entidades\obj\Debug\Entidades.pdb

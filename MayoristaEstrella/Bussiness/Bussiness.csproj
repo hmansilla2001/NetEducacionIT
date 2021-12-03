@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteBussiness.cs" />
+    <Compile Include="MarcaBussiness.cs" />
+    <Compile Include="ProductoBussiness.cs" />
     <Compile Include="RubroBussiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadMedidaBussiness.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
